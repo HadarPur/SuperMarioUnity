@@ -69,7 +69,14 @@
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\CameraFollowScript.cs" />
+    <Compile Include="Assets\Scripts\CoinPickup.cs" />
+    <Compile Include="Assets\Scripts\CoinRotation.cs" />
     <Compile Include="Assets\Scripts\expScript.cs" />
+    <Compile Include="Assets\Scripts\GlobalCoins.cs" />
+    <Compile Include="Assets\Scripts\MashroomManMovement.cs" />
+    <Compile Include="Assets\Scripts\Pipe001Entry.cs" />
+    <Compile Include="Assets\Scripts\Pipe001Exit.cs" />
+    <Compile Include="Assets\Scripts\TransformFollower.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/hpur/SuperMario/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

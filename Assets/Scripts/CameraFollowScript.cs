@@ -11,7 +11,7 @@ public class CameraFollowScript : MonoBehaviour
     void Start()
     {
         distanceFromPlayer = 10;
-        staticCameraY = 4;
+        staticCameraY = transform.position.y;
     }
 
     private void FixedUpdate()

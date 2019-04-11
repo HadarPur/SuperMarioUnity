@@ -1,8 +1,13 @@
 ﻿<Properties StartupConfiguration="{A817F398-A3E1-586B-4C05-1F62B4483374}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/expScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/CameraFollowScript.cs" Line="13" Column="30" />
-      <File FileName="Assets/Scripts/expScript.cs" Line="12" Column="10" />
+      <File FileName="Assets/Scripts/Pipe001Exit.cs" Line="31" Column="30" />
+      <File FileName="Assets/Scripts/Pipe001Entry.cs" Line="55" Column="30" />
+      <File FileName="Assets/Scripts/CameraFollowScript.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/Cam2FollowScript.cs" Line="11" Column="10" />
+      <File FileName="Assets/Scripts/CoinPickup.cs" Line="12" Column="28" />
+      <File FileName="Assets/Scripts/MashroomManMovement.cs" Line="33" Column="10" />
+      <File FileName="Assets/Scripts/expScript.cs" Line="8" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,6 +19,11 @@
               </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="SuperMario" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

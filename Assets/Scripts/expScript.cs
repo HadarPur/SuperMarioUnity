@@ -9,11 +9,12 @@ public class expScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player" && transform.position.x > other.gameObject.GetComponent<Transform>().position.x)
+        if (other.gameObject.tag == "Player" && other.transform.position.y - gameObject.transform.position.y < 0)
         {
             crackingEffect.Play();
             Instantiate(remain, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             Destroy(gameObject);
         }
     }
+
 }

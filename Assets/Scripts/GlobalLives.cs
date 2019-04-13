@@ -17,7 +17,13 @@ public class GlobalLives : MonoBehaviour
 
         if (internalLives == 0)
         {
-            SceneManager.LoadScene(3);
+            StartCoroutine(moveToGameOverScreen());
         }
+    }
+
+    private IEnumerator moveToGameOverScreen()
+    {
+        yield return new WaitForSeconds(2.9f);
+        SceneManager.LoadScene(3);
     }
 }

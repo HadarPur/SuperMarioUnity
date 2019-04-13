@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MashroomManMovement : MonoBehaviour
 {
-    public float leftPoint = 13.71f;
+    public float leftPoint = 1.71f;
     public float rightPoint = 23;
     public int direction = 1;
 

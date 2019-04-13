@@ -11,7 +11,7 @@ public class RedMashroomMovement : MonoBehaviour
     {
         transform.parent = null;
         transform.Translate(Vector3.up * 2 * Time.deltaTime, Space.World);
-        CloseAnim();
+        StartCoroutine(CloseAnim());
     }
 
     private IEnumerator CloseAnim()

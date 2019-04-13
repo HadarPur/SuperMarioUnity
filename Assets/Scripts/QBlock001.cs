@@ -7,12 +7,16 @@ public class QBlock001 : MonoBehaviour
     public GameObject deadBlock;
     public GameObject qBlock;
     public GameObject mashroom;
-
+    public bool mashroomOut = false;
     private IEnumerator OnTriggerEnter(Collider other)
     {
-        qBlock.SetActive(false);
-        deadBlock.SetActive(true);
-        yield return new WaitForSeconds(0.2f);
-        mashroom.SetActive(true);
+        if (!mashroomOut)
+        {
+            mashroomOut = true;
+            qBlock.SetActive(false);
+            deadBlock.SetActive(true);
+            yield return new WaitForSeconds(0.2f);
+            mashroom.SetActive(true);
+      }
     }
 }

@@ -8,8 +8,12 @@ public class CoinPickup : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
-        coinsEffect.Play();
-        GlobalCoins.coinsCount += 1;
+        if (other.gameObject.tag == "Player")
+        {
+            Destroy(gameObject);
+            coinsEffect.Play();
+            GlobalCoins.coinsCount += 1;
+            GlobalScore.currenScore += 10;
+        }
     }
 }

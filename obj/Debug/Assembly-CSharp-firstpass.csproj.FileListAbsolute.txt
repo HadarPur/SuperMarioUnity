@@ -352,11 +352,8 @@
 /Users/hpur/SuperMario/Temp/bin/Debug/Unity.Analytics.StandardEvents.dll.mdb
 /Users/hpur/SuperMario/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
 /Users/hpur/SuperMario/Temp/bin/Debug/Unity.IvyParser.dll.mdb
+/Users/hpur/SuperMario/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache
 /Users/hpur/SuperMario/obj/Debug/Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
 /Users/hpur/SuperMario/obj/Debug/Assembly-CSharp-firstpass.csproj.CopyComplete
 /Users/hpur/SuperMario/obj/Debug/Assembly-CSharp-firstpass.dll
 /Users/hpur/SuperMario/obj/Debug/Assembly-CSharp-firstpass.pdb
-/Users/hpur/SuperMario/Temp/bin/Debug/Boo.Lang.dll
-/Users/hpur/SuperMario/Temp/bin/Debug/UnityEditor.UI.dll
-/Users/hpur/SuperMario/Temp/bin/Debug/UnityEditor.UI.dll.mdb
-/Users/hpur/SuperMario/Temp/bin/Debug/UnityEditor.UI.xml

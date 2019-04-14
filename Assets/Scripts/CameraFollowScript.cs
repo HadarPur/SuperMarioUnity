@@ -10,7 +10,7 @@ public class CameraFollowScript : MonoBehaviour
 
     void Start()
     {
-        distanceFromPlayer = 10;
+        distanceFromPlayer = 7;
         staticCameraY = transform.position.y;
     }
 

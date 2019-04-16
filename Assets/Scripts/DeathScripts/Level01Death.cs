@@ -12,7 +12,7 @@ public class Level01Death : MonoBehaviour
 
     private IEnumerator OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && MashroomManDeath.isCrashed == false)
         {
             if (other.transform.localScale.x < 1)
             {
@@ -33,7 +33,6 @@ public class Level01Death : MonoBehaviour
             {
                 other.transform.localScale -= new Vector3(0.3f, 0.3f, 0.3f);
                 other.transform.Translate(new Vector3(-5, 0.5f, 0.5f));
-
             }
         }
     }

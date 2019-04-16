@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{A817F398-A3E1-586B-4C05-1F62B4483374}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/expScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MashroomManDeath.cs">
     <Files>
       <File FileName="Assets/Scripts/RedMashroomMovement.cs" Line="7" Column="1" />
       <File FileName="Assets/Scripts/CoinMovement.cs" Line="7" Column="34" />
@@ -18,7 +18,7 @@
       <File FileName="Assets/Scripts/GlobalScore.cs" Line="15" Column="69" />
       <File FileName="Assets/Scripts/GreenMashromCollect.cs" Line="17" Column="10" />
       <File FileName="Assets/Scripts/MashroomManMovement.cs" Line="15" Column="28" />
-      <File FileName="Assets/Scripts/MashroomManDeath.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/MashroomManDeath.cs" Line="8" Column="12" />
       <File FileName="Assets/Scripts/MashroomCollect.cs" Line="16" Column="32" />
       <File FileName="Assets/Scripts/MashroomRedMoveLevel.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/expScript.cs" Line="10" Column="20" />
@@ -35,7 +35,7 @@
                 <Node name="LevelEnds" expanded="True" />
                 <Node name="MenuScripts" expanded="True" />
                 <Node name="Preloads" expanded="True" />
-                <Node name="expScript.cs" selected="True" />
+                <Node name="MashroomManDeath.cs" selected="True" />
               </Node>
             </Node>
           </Node>

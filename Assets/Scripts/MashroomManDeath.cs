@@ -5,12 +5,11 @@ using UnityEngine;
 public class MashroomManDeath : MonoBehaviour
 {
     public GameObject mashroomMan;
-    public int num;
+    public static bool isCrashed = false;
 
     private IEnumerator OnTriggerEnter(Collider other)
     {
-
-        num = 1;
+        isCrashed = true;
         this.GetComponent<BoxCollider>().enabled = false;
         mashroomMan.GetComponent<MashroomManMovement>().enabled = false;
         mashroomMan.transform.localScale -= new Vector3(0, 0, 0.4f);
